@@ -1,0 +1,87 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(231, 125, 125);
+    color: white;
+    user-select: none;
+}
+
+.main {
+    display: flex;
+    gap: 200px;
+}
+
+.left h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.gem-image {
+    width: 300px;
+}
+
+.gem-image:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.gem-image:active {
+    opacity: 0.8;
+    transform: scale(1.02);
+}
+
+.upgrade {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 330px;
+    height: 60px;
+    border: 4px solid white;
+    padding: 10px 20px;
+    border-radius:10px;
+    position: relative;
+}
+
+.mid-section h4 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.mid-section p {
+    margin: 0
+}
+
+.upgrade-img {
+    width: 55px;
+
+}
+
+.gem-img {
+    width: 20px;
+    height: 20px;
+}
+
+.cost-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.next-level-info {
+    position: absolute;
+    right: -100px;
+    background-color: gray;
+    height: 80px;
+    width: 105px;
+    text-align: center;
+    display: none;
+}
+
+.upgrade-hover:hover .next-level-info {
+    display: block;
+    
+}
