@@ -1,9 +1,5 @@
 body {
-    background-image: url(/images/tntacting-small.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 1523px 700px;
+  background: linear-gradient(to right, #7B1113, #8C161E, #9C1B2A, #AD1F35, #BD2440);
 }
 
 .container {
@@ -13,3 +9,5 @@ body {
     height: 100vh;
     
 }
+
+
